@@ -1,5 +1,7 @@
 header {
+    background-color: bisque;
     padding: 20px 35px;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -8,4 +10,16 @@ header {
 .nav {
     text-align: right;
     font-size: 2.5vw;
+}
+
+.about-me {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+.selfie {
+    max-width: 15%;
+    height: auto;
+    border-radius: 25px;
 }
