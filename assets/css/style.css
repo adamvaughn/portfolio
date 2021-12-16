@@ -1,0 +1,11 @@
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav {
+    text-align: right;
+    font-size: 2.5vw;
+}
