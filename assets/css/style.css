@@ -11,8 +11,10 @@ header {
 }
 
 .nav {
-    text-align: right;
+    justify-content: right;
     font-size: 2.5vw;
+    flex-direction: row;
+    text-decoration: none;
 }
 
 /* About Me */
@@ -49,8 +51,22 @@ header {
 }
 
 .bottom-left {
-    text-size-adjust: auto;
+    text-size-adjust: 2.5vw;
     position: absolute;
     bottom: auto;
     left: auto;
+}
+
+/* Contact Me */
+
+#contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact-me img {
+    height: 5vw;
+    width: auto;
+    align-items: flex-end;
 }
