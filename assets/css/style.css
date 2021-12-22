@@ -1,5 +1,8 @@
+* {
+    background-color: lightgray;
+}
+
 header {
-    background-color: bisque;
     padding: 20px 35px;
     margin: 0;
     display: flex;
@@ -12,14 +15,42 @@ header {
     font-size: 2.5vw;
 }
 
+/* About Me */
+
 .about-me {
     background-color: cadetblue;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    flex-wrap: end;
 }
 
 .selfie {
     max-width: 15%;
     height: auto;
     border-radius: 25px;
+}
+
+/* My Projects */
+
+#mywork {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+.bigimg {
+    height: 25vw;
+    width: auto;
+    opacity: 25%;
+}
+
+.bigimg:hover {
+    opacity: 100%;
+}
+
+.bottom-left {
+    text-size-adjust: auto;
+    position: absolute;
+    bottom: auto;
+    left: auto;
 }
