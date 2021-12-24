@@ -1,72 +1,41 @@
-* {
-    background-color: lightgray;
+/* Body */
+body {
+    background-color: silver;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
+
 header {
-    padding: 20px 35px;
-    margin: 0;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.nav {
-    justify-content: right;
-    font-size: 2.5vw;
+nav {
+    display: flex;
     flex-direction: row;
+    flex-grow: auto;
+    flex-shrink: auto;
     text-decoration: none;
 }
 
 /* About Me */
-
 .about-me {
-    background-color: cadetblue;
     display: flex;
-    align-items: flex-end;
-    flex-wrap: end;
+    flex-direction: row;
 }
 
-.selfie {
-    max-width: 15%;
-    height: auto;
-    border-radius: 25px;
+.about-me-row {
 }
 
-/* My Projects */
-
-#mywork {
-    display: flex;
-    flex-wrap: wrap;
-    flex: auto;
+.about-me .selfie {
+    width: 25vw;
+    border-radius: 100%;
 }
 
-.bigimg {
-    height: 25vw;
-    width: auto;
-    opacity: 25%;
-}
-
-.bigimg:hover {
-    opacity: 100%;
-}
-
-.bottom-left {
-    text-size-adjust: 2.5vw;
-    position: absolute;
-    bottom: auto;
-    left: auto;
-}
+/* My Work */
 
 /* Contact Me */
 
-#contact-me {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#contact-me img {
-    height: 5vw;
-    width: auto;
-    align-items: flex-end;
-}
+/* Footer */
