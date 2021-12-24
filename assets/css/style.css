@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    color: #edf0f1;
+}
+
 /* Body */
 body {
     background-color: silver;
@@ -7,17 +15,30 @@ body {
 
 /* Header */
 
-header {
-    display: flex;
-    flex-wrap: wrap;
+
+a {
+    text-decoration: none;
 }
 
-nav {
+header {
     display: flex;
-    flex-direction: row;
-    flex-grow: auto;
-    flex-shrink: auto;
-    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: linear-gradient(blue darkgray)
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover {
+    color: teal;
 }
 
 /* About Me */
@@ -31,11 +52,15 @@ nav {
 
 .about-me .selfie {
     width: 25vw;
-    border-radius: 100%;
+    height: auto;
 }
 
 /* My Work */
 
 /* Contact Me */
+.contact-me img {
+    width: 5vw;
+    height: auto;
+}
 
 /* Footer */
