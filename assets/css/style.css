@@ -54,13 +54,14 @@ header {
 .about-me .selfie {
     width: 20vw;
     height: auto;
+    margin: 25px;
     align-items: center;
     border-radius: 50%;
 }
 
 /* My Work */
 .my-work {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -74,6 +75,12 @@ header {
     flex-wrap: wrap;
 }
 
+.smaller img {
+    width: 20vw;
+    height: auto;
+    flex: 1;
+}
+
 .run-buddy {
     flex: 2;
 }
@@ -82,25 +89,6 @@ header {
     width: 40vw;
     height: auto;
 }
-
-.robot-gladiator {
-    flex:1
-}
-
-.robot-gladiator img {
-    width: 20vw;
-    height: auto;
-}
-
-.placeholder {
-    flex:1
-}
-
-.placeholder img {
-    width: 20vw;
-    height: auto;
-}
-
 /* Contact Me */
 .contact-me {
     background-image: linear-gradient(#24252a, darkgrey);
