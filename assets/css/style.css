@@ -71,25 +71,9 @@ header {
     align-content: space-around;
 }
 
-.smaller {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.smaller img {
-    width: 20vw;
-    height: auto;
-    flex: 1;
-    filter: brightness(50%);
-}
-
-.smaller img:hover {
-    filter: brightness(100%);
-}
-
 .run-buddy {
     flex: 2;
+    position: relative;
 }
 
 .run-buddy img {
@@ -102,6 +86,47 @@ header {
     filter:brightness(100%);
 }
 
+.smaller {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.robot-gladiator img {
+    width: 20vw;
+    height: auto;
+    flex: 1;
+    filter: brightness(50%);
+}
+
+.robot-gladiator img:hover {
+    filter: brightness(100%);
+}
+
+.password {
+    position: relative;
+}
+
+.password img {
+    width: 20vw;
+    height: auto;
+    flex: 1;
+    filter: brightness(50%);
+}
+
+.password img:hover {
+    filter: brightness(100%);
+}
+
+
+.app-title {
+    position: absolute;
+    bottom: 8px;
+    left: 6px;
+    font-size: auto;
+    font-weight: bold;
+}
 /* Contact Me */
 .contact-me {
     padding: 25px;
