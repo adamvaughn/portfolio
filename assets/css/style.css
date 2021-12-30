@@ -89,8 +89,8 @@ header {
 .smaller {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .robot-gladiator img {
@@ -127,6 +127,23 @@ header {
     font-size: auto;
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+    .smaller {
+        flex-direction: column;
+    }
+    
+    .robot-gladiator img{
+        width: 40vw;
+        height: auto;
+    }
+
+    .password img{
+        width: 40vw;
+        height: auto;
+    }
+}
+    
 /* Contact Me */
 .contact-me {
     padding: 25px;
