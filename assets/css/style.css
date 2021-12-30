@@ -71,6 +71,11 @@ header {
     align-content: space-around;
 }
 
+.my-work img {
+    border: solid turquoise 5px;
+    border-radius: 5%;
+}
+
 .run-buddy {
     flex: 2;
     position: relative;
@@ -122,8 +127,8 @@ header {
 
 .app-title {
     position: absolute;
-    bottom: 8px;
-    left: 6px;
+    bottom: 12px;
+    left: 12px;
     font-size: auto;
     font-weight: bold;
 }
@@ -132,7 +137,12 @@ header {
     .smaller {
         flex-direction: column;
     }
-    
+
+    .robot-gladiator p {
+        bottom: 12px;
+        left: 12px;
+    }
+
     .robot-gladiator img{
         width: 40vw;
         height: auto;
