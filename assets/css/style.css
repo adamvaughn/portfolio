@@ -134,6 +134,11 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+    .about-me .selfie {
+        height: 40vw;
+        width: auto;
+    }
+
     .smaller {
         flex-direction: column;
     }
@@ -148,9 +153,24 @@ header {
         height: auto;
     }
 
+    .robot-gladiator .app-title {
+        position: relative;
+        bottom: 28px;
+        text-align: left;
+    }
+
+    .password {
+        position: relative;
+        bottom: 18px;
+    }
+
     .password img{
         width: 40vw;
         height: auto;
+    }
+
+    .password .app-title {
+        text-align: left;
     }
 }
     
