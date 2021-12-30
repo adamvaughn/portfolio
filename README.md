@@ -13,3 +13,4 @@ My contact section  contains images with links to my email, LinkedIn, and GitHub
 
 My footer containts my name with copyrite and the year.
 
+<img src="assets/images/portfolio-screenshot.png">
