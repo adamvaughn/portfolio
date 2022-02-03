@@ -62,119 +62,65 @@ header {
 }
 
 /* My Work */
+.grid-container {
+    display: grid;
+}
+
 .my-work {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    align-content: space-around;
+    align-content: center;
 }
 
 .my-work img {
     border: solid turquoise 5px;
     border-radius: 5%;
-}
-
-.run-buddy {
-    flex: 2;
-    position: relative;
-}
-
-.run-buddy img {
-    width: 40vw;
-    height: auto;
-    filter: brightness(50%)
-}
-
-.run-buddy img:hover {
-    filter:brightness(100%);
-}
-
-.smaller {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    flex-wrap: wrap;
-}
-
-.robot-gladiator img {
-    width: 20vw;
-    height: auto;
-    flex: 1;
+    width: 25vw;
+    height: 25vw;
     filter: brightness(50%);
 }
 
-.robot-gladiator img:hover {
+.my-work img:hover {
     filter: brightness(100%);
 }
-
-.password {
-    position: relative;
-}
-
-.password img {
-    width: 20vw;
-    height: auto;
-    flex: 1;
-    filter: brightness(50%);
-}
-
-.password img:hover {
-    filter: brightness(100%);
-}
-
 
 .app-title {
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
-    font-size: auto;
+    font-size: 25px;
     font-weight: bold;
+    position: relative;
+    bottom: 40px;
+    z-index: 10;
+
 }
 
-@media screen and (max-width: 800px) {
-    header .nav-links {
-        font-size: 90%;
+@media only screen and (max-width: 800px){
+    .about-me {
+        align-items: center;
+        padding: 5%;
     }
 
     .about-me .selfie {
-        height: 40vw;
-        width: auto;
-    }
-
-    .smaller {
-        flex-direction: column;
-    }
-
-    .robot-gladiator p {
-        bottom: 12px;
-        left: 12px;
-    }
-
-    .robot-gladiator img{
-        width: 40vw;
+        width: 55vw;
         height: auto;
     }
 
-    .robot-gladiator .app-title {
-        position: relative;
-        bottom: 28px;
-        text-align: left;
+    .my-work {
+        align-items: center;
     }
 
-    .password {
-        position: relative;
-        bottom: 18px;
-    }
-
-    .password img{
-        width: 40vw;
+    .my-work img {
+        width: 55vw;
         height: auto;
+        filter: brightness(100%);
     }
 
-    .password .app-title {
-        text-align: left;
+    .app-title {
+        font-size: 18px;
+        position: relative;
+        bottom: 32px;
     }
 }
     
