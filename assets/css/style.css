@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
